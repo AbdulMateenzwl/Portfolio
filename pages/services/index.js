@@ -21,7 +21,7 @@ const Services = () => {
 							exit='hidden'
 							className='h2 xl:mt-8'
 						>
-							My Service <span className='text-accent'>.</span>{' '}
+							My Service <span className='primary-color'>.</span>{' '}
 						</motion.h2>
 						<motion.p
 							variants={fadeIn('up', 0.2)}

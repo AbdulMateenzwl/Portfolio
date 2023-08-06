@@ -24,8 +24,9 @@ const Home = () => {
 						exit='hidden'
 						className='h1'
 					>
-						Transforming Ideas <br /> Into{' '}
-						<span className='text-accent'>Digital Reality</span>{' '}
+						Molding ideas into
+						<br />
+						<span className='text-accent'>Digital Perfection</span>{' '}
 					</motion.h1>
 					<motion.p
 						variants={fadeIn('down', 0.3)}
@@ -34,10 +35,9 @@ const Home = () => {
 						exit='hidden'
 						className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
 					>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae modi
-						eligendi dolores voluptate. Officia ipsam ad, quisquam aliquid
-						minima porro eligendi. Quod temporibus exercitationem assumenda,
-						repudiandae consectetur amet aperiam possimus.
+						Computer Scientist || MERN | Next.js | .NET | WPF | DSA | SQL |
+						Cyber Security | Teaching Assistant | Tech Enthusiast | Seeking
+						Opportunities to Gain Experience
 					</motion.p>
 					<div className='flex justify-center xl:hidden relative'>
 						<ProjectsBtn />
@@ -57,7 +57,7 @@ const Home = () => {
 			<div className='w-[100%] h-full absolute right-0 bottom-0'>
 				<div className='bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'></div>
 
-				<ParticlesContainer />
+				{/* <ParticlesContainer /> */}
 				<motion.div
 					variants={fadeIn('up', 0.5)}
 					initial='hidden'

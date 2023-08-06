@@ -120,7 +120,7 @@ const About = () => {
 						exit='hidden'
 						className='h2'
 					>
-						Captivating <span className='text-accent'>stories</span> birth
+						Captivating <span className='primary-color'>stories</span> birth
 						magnificent designs.{' '}
 					</motion.h2>
 					<motion.p
@@ -145,7 +145,7 @@ const About = () => {
 						<div className='flex flex-1 xl:gap-x-6'>
 							{/* experience */}
 							<div className='relative flex-1 after:w[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
-								<div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2 '>
+								<div className='text-2xl xl:text-4xl font-extrabold primary-color mb-2 '>
 									<CountUp start={0} end={2} duration={8} /> +
 								</div>
 								<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
@@ -154,7 +154,7 @@ const About = () => {
 							</div>
 							{/* Clients */}
 							<div className='relative flex-1 after:w[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
-								<div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2 '>
+								<div className='text-2xl xl:text-4xl font-extrabold primary-color mb-2 '>
 									<CountUp start={0} end={10} duration={8} /> +
 								</div>
 								<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
@@ -163,7 +163,7 @@ const About = () => {
 							</div>
 							{/* Projects */}
 							<div className='relative flex-1 after:w[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
-								<div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2 '>
+								<div className='text-2xl xl:text-4xl font-extrabold primary-color mb-2 '>
 									<CountUp start={0} end={15} duration={8} /> +
 								</div>
 								<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
@@ -189,7 +189,7 @@ const About = () => {
 									key={itemIndex}
 									className={` ${
 										index === itemIndex &&
-										'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300 '
+										'primary-color after:w-[100%] after:transition-all after:duration-300 '
 									} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
 									onClick={() => setIndex(itemIndex)}
 								>

@@ -38,8 +38,8 @@ const Nav = () => {
 					return (
 						<Link
 							className={`${
-								link.path === pathname && 'text-accent'
-							} relative flex items-center group hover:text-accent transition-all duration-300`}
+								link.path === pathname && 'primary-color'
+							} relative flex items-center group text-accent-hover transition-all duration-300`}
 							href={link.path}
 							key={index}
 						>
@@ -48,7 +48,7 @@ const Nav = () => {
 									<div className='text-[12px] leading-none font-semibold capitalize'>
 										{link.name}
 									</div>
-                  <div className="border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2"></div>
+									<div className='border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2'></div>
 								</div>
 							</div>
 
