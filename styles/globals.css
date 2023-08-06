@@ -74,3 +74,9 @@
 .swiper-pagination-bullet-active {
      background-color: #1e50f1 !important;
 }
+
+
+.border-primary-group:hover{
+    --tw-border-opacity: 1;
+    border-color: rgb(20 80 241 / var(--tw-border-opacity));
+}

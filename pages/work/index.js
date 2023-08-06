@@ -21,7 +21,7 @@ const Work = () => {
 							exit='hidden'
 							className='h2 xl:mt-8'
 						>
-							My Service <span className='text-accent'>.</span>{' '}
+							My Work <span className='text-accent'>.</span>{' '}
 						</motion.h2>
 						<motion.p
 							variants={fadeIn('up', 0.2)}
@@ -30,10 +30,9 @@ const Work = () => {
 							exit='hidden'
 							className='mb-4 max-w-[400px] mx-auto lg:mx-0'
 						>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-							unde eaque voluptates. Expedita ipsum, consectetur reiciendis
-							accusantium voluptatibus harum magni neque sit aut soluta, ratione
-							necessitatibus! Nemo ut deserunt culpa.
+							Embark on a Visual Odyssey: Explore My Portfolio Showcase,
+							Unveiling the Creative Journey Behind Captivating Works and
+							Diverse Projects.
 						</motion.p>
 					</div>
 					<motion.div
