@@ -106,11 +106,11 @@ const About = () => {
 				initial='hidden'
 				animate='show'
 				exit='hidden'
-				className='hidden xl:flex absolute bottom-0 -left-[370px]'
+				className='hidden xl:flex absolute -bottom-[100px] -left-[17%] h-[80vh] '
 			>
 				<Avatar />
 			</motion.div>
-			<div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 '>
+			<div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
 				{/* text */}
 				<div className='flex-1 flex flex-col justify-center'>
 					<motion.h2
@@ -128,7 +128,7 @@ const About = () => {
 						initial='hidden'
 						animate='show'
 						exit='hidden'
-						className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
+						className='max-w-[500px] z-10 mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
 					>
 						2 year ago, I began Feelancing as a developer. Since then , I've
 						done remote work for agencies, counsulted for startups, amd
