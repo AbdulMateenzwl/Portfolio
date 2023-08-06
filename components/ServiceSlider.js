@@ -7,6 +7,9 @@ import {
 	RxArrowTopRight,
 } from 'react-icons/rx';
 
+import { BiBrain } from 'react-icons/bi';
+import { MdWebAsset } from 'react-icons/md';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -18,29 +21,28 @@ import { FreeMode, Pagination } from 'swiper';
 // data
 const serviceData = [
 	{
-		icon: <RxCrop />,
-		title: 'Branding',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-	},
-	{
-		icon: <RxPencil2 />,
-		title: 'Design',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		icon: <MdWebAsset />,
+		title: 'Web Development',
+		description:
+			'Skilled web developer crafting interactive sites with a focus on user-centric design and functionality.',
 	},
 	{
 		icon: <RxDesktop />,
-		title: 'Development',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		title: 'Desktop Development',
+		description:
+			'Experienced in desktop application development with a focus on creating efficient and user-friendly software.',
 	},
 	{
-		icon: <RxReader />,
-		title: 'Copywriting',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		icon: <RxPencil2 />,
+		title: 'Graphic Design',
+		description:
+			'Passionate graphic designer creating visually captivating designs for digital and print media.',
 	},
 	{
-		icon: <RxRocket />,
-		title: 'SEO',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		icon: <BiBrain />,
+		title: 'Problem Solving',
+		description:
+			'Resourceful problem solver adept at analyzing challenges and delivering innovative solutions with precision.',
 	},
 ];
 
@@ -71,7 +73,7 @@ const ServiceSlider = () => {
 							<div className='text-4xl primary-color mb-4 '>{item.icon}</div>
 							<div className='mb-8'>
 								<div className='mb-2 text-lg'>{item.title}</div>
-								<p className='max-w-[350px] leading-normal'>
+								<p className='max-w-[350px] leading-normal text-justify'>
 									{item.description}
 								</p>
 							</div>

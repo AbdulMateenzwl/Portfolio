@@ -5,41 +5,48 @@ import {
 	RiInstagramFill,
 	RiLinkedinFill,
 	RiGithubFill,
-	RiMore2Line,
+	
 } from 'react-icons/ri';
+
+import {BsFillArrowRightSquareFill} from 'react-icons/bs';
 
 const Socials = () => {
 	return (
 		<div className='flex items-center gap-x-5 text-lg'>
 			<Link
-				href={'/'}
-				className='primary-color-hover transition-all duration-300'
+				href='https://facebook.com/abdulmateenzwl'
+				target='_blank'
+				className='primary-color-hover transition-all duration-300 scale-[170%]'
 			>
 				<RiFacebookBoxFill />
 			</Link>
 			<Link
-				href={'/'}
-				className='primary-color-hover transition-all duration-300'
+				href='https://instagram.com/abdulmateenzwl'
+				target='_blank'
+				className='primary-color-hover transition-all duration-300 scale-[170%]'
 			>
 				<RiInstagramFill />
 			</Link>
 			<Link
-				href={'/'}
-				className='primary-color-hover transition-all duration-300'
+				href={'https://linkedin.com/in/abdulmateenzwl'}
+				target='_blank'
+				className='primary-color-hover transition-all duration-300 scale-[170%]'
 			>
 				<RiLinkedinFill />
 			</Link>
 			<Link
-				href={'/'}
-				className='primary-color-hover transition-all duration-300'
+				href='https://github.com/abdulmateenzwl'
+				target='_blank'
+				className='primary-color-hover transition-all duration-300 scale-[170%]'
 			>
 				<RiGithubFill />
 			</Link>
 			<Link
-				href={'/'}
-				className='primary-color-hover transition-all duration-300'
+				href='https://connect.abdulmateenzwl.com'
+				target='_blank'
+				className='primary-color-hover transition-all duration-300 '
 			>
-				<RiMore2Line />
+				<BsFillArrowRightSquareFill />
 			</Link>
 		</div>
 	);

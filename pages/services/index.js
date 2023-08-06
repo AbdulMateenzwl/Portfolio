@@ -28,12 +28,11 @@ const Services = () => {
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+							className='mb-4 max-w-[400px] mx-auto lg:mx-0 text-justify'
 						>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-							unde eaque voluptates. Expedita ipsum, consectetur reiciendis
-							accusantium voluptatibus harum magni neque sit aut soluta, ratione
-							necessitatibus! Nemo ut deserunt culpa.
+							Unlock the Full Potential of Your Vision: Experience a Diverse
+							Array of Professional Solutions Catered to Meet Your Unique Needs
+							and Goals.
 						</motion.p>
 					</div>
 					<motion.div

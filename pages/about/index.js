@@ -1,18 +1,17 @@
 //  data
 import React, { useState } from 'react';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from 'react-icons/fa';
+import { DiMongodb } from 'react-icons/di';
+import { BsGit, BsGithub } from 'react-icons/bs';
+import { TbBrandVscode, TbBrandVisualStudio, TbSql } from 'react-icons/tb';
 import {
-	FaHtml5,
-	FaCss3,
-	FaJs,
-	FaReact,
-	FaFigma,
-	FaWordpress,
-} from 'react-icons/fa';
-import {
+	SiNodedotjs,
+	SiExpress,
 	SiNextdotjs,
-	SiFramer,
-	SiAdobexd,
 	SiAdobephotoshop,
+	SiAdobeillustrator,
+	SiCplusplus,
+	SiCsharp,
 } from 'react-icons/si';
 
 const aboutData = [
@@ -20,33 +19,29 @@ const aboutData = [
 		title: 'skills',
 		info: [
 			{
-				title: 'Web Development',
+				title: 'Front End Development',
+				icons: [<FaHtml5 />, <FaCss3 />, <FaReact />, <SiNextdotjs />],
+			},
+			{
+				title: 'Back End Development',
+				icons: [<DiMongodb />, <SiExpress />, <SiNodedotjs />, <TbSql />],
+			},
+			{
+				title: 'Tools',
 				icons: [
-					<FaHtml5 />,
-					<FaCss3 />,
-					<FaJs />,
-					<FaReact />,
-					<SiNextdotjs />,
-					<SiFramer />,
-					<FaWordpress />,
+					<BsGit />,
+					<BsGithub />,
+					<TbBrandVscode />,
+					<TbBrandVisualStudio />,
 				],
 			},
 			{
+				title: 'Languages',
+				icons: [<SiCplusplus />, <SiCsharp />, <FaJs />],
+			},
+			{
 				title: 'UI/UX Design',
-				icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-			},
-		],
-	},
-	{
-		title: 'awards',
-		info: [
-			{
-				title: 'Webby Awards - Honoree',
-				stage: '2011 - 2012',
-			},
-			{
-				title: 'Adobe Design Achievement Awards - Finalist',
-				stage: '2009 - 2010',
+				icons: [<SiAdobeillustrator />, <SiAdobephotoshop />, <FaFigma />],
 			},
 		],
 	},
@@ -54,33 +49,29 @@ const aboutData = [
 		title: 'experience',
 		info: [
 			{
-				title: 'UX/UI Designer - XYZ Company',
-				stage: '2012 - 2023',
+				title: 'MERN Stack Intern - Tiers Limited',
+				stage: 'June - August 2023',
 			},
 			{
-				title: 'Web Developer - ABC Agency',
-				stage: '2010 - 2012',
+				title: 'ACM Web FellowShip - ACM UET Lahore',
+				stage: 'August 2023 - Present',
 			},
 			{
-				title: 'Intern - DEF Corporation',
-				stage: '2008 - 2010',
+				title: 'Web Security Intern - Bytewise Ltd',
+				stage: 'March - July 2023',
 			},
 		],
 	},
 	{
-		title: 'credentials',
+		title: 'Education',
 		info: [
 			{
-				title: 'Web Development - ABC University, LA, CA',
-				stage: '2011',
+				title: 'University of Engineering and Technology, Lahore',
+				stage: '2021-2025',
 			},
 			{
-				title: 'Computer Science Diploma - AV Technical Institute',
-				stage: '2009',
-			},
-			{
-				title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-				stage: '2006',
+				title: 'Intermedia Pre-Engineering - PGC Zafarwal',
+				stage: '2021',
 			},
 		],
 	},
@@ -118,17 +109,17 @@ const About = () => {
 						initial='hidden'
 						animate='show'
 						exit='hidden'
-						className='h2'
+						className='h4 text-3xl xl:text-5xl font-bold mb-4 xl:mb-8 z-10'
 					>
-						Captivating <span className='primary-color'>stories</span> birth
-						magnificent designs.{' '}
+						Captivating <span className='primary-color'>Stories</span> & <br />
+						Magnificent Designs.
 					</motion.h2>
 					<motion.p
 						variants={fadeIn('right', 0.4)}
 						initial='hidden'
 						animate='show'
 						exit='hidden'
-						className='max-w-[500px] z-10 mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
+						className='max-w-[500px] z-10 mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-justify'
 					>
 						2 year ago, I began Feelancing as a developer. Since then , I've
 						done remote work for agencies, counsulted for startups, amd
@@ -210,7 +201,11 @@ const About = () => {
 									<div>{item.stage}</div>
 									<div className='flex gap-x-4'>
 										{item.icons?.map((icon, itemIndex) => {
-											return <div className='text-2xl text-white'>{icon}</div>;
+											return (
+												<div className='text-2xl text-white primary-color-hover'>
+													{icon}
+												</div>
+											);
 										})}
 									</div>
 								</div>
