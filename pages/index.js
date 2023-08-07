@@ -36,8 +36,7 @@ const Home = () => {
 						className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
 					>
 						Computer Scientist || MERN | Next.js | .NET | WPF | DSA | SQL |
-						Cyber Security | Teaching Assistant | Tech Enthusiast | Seeking
-						Opportunities to Gain Experience
+						Cyber Security | Teaching Assistant | Tech Enthusiast 
 					</motion.p>
 					<div className='flex justify-center xl:hidden relative'>
 						<ProjectsBtn />

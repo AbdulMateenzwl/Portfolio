@@ -80,31 +80,7 @@
 	border-color: rgb(20 80 241 / var(--tw-border-opacity));
 }
 
-/* .testing {
-	height: 100px;
-	display: none;
-	background-color: red;
-	@media screen and (max-width: 1000px) {
-		display: block;
-	}
-}
 
-.test1 {
-	height: 100vh;
-	@media screen and (max-width: 1200px) {
-		padding-bottom: 240px;
-	}
-}
-.test2 {
-	overflow-y: auto;
-	@media screen and (max-width: 1200px) {
-		margin-top: 110px;
-	}
-}
-
-.test-border {
-	border: 1px solid red;
-} */
 
 .headtest {
 	position: absolute;
@@ -123,4 +99,8 @@
 	@media screen and (max-width: 1200px) {
 		overflow-y: auto;
 	}
+}
+
+.radius-10{
+	border-radius: 10px;
 }
