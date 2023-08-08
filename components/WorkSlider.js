@@ -1,9 +1,23 @@
 // data
+
+import { BsFillArrowRightSquareFill } from 'react-icons/bs';
+
 const workSlides = {
 	slides: [
 		{
 			images: [
-				
+				{
+					title: 'NoteBook',
+					path: '/notebook.jpg',
+					// live_link: 'https://newsbytes.abdulmateenzwl.com',
+					code_link: 'https://github.com/abdulmateenzwl/News-Bytes',
+				},
+				{
+					title: 'Text Analyzer',
+					path: '/Text Analyzer.jpg',
+					live_link: 'https://text-analyzer.abdulmateenzwl.com',
+					code_link: 'https://github.com/AbdulMateenzwl/Text-Analyzer',
+				},
 				{
 					title: 'News Bytes',
 					path: '/NewsBytes.jpg',
@@ -16,27 +30,21 @@ const workSlides = {
 					live_link: 'https://connect.abdulmateenzwl.com',
 					code_link: 'https://github.com/AbdulMateenzwl/Connect-Me',
 				},
-				{
-					title: 'Text Analyzer',
-					path: '/Text Analyzer.jpg',
-					live_link: 'https://text-analyzer.abdulmateenzwl.com',
-					code_link: 'https://github.com/AbdulMateenzwl/Text-Analyzer',
-				},
 			],
 		},
 		{
 			images: [
 				{
+					title: 'Ecommerce Store',
+					path: '/shophub.jpg',
+					code_link: 'https://github.com/AbdulMateenzwl/Ecommerce-Store',
+					live_link: 'https://shophub.abdulmateenzwl.com',
+				},
+				{
 					title: 'Old Portfolio',
 					path: '/Old Portfolio.jpg',
 					live_link: 'https://old-portfolio.abdulmateenzwl.com',
 					code_link: 'https://github.com/abdulmateenzwl/old-portfolio',
-				},
-				{
-					title: ' Store',
-					path: '/thumb4.jpg',
-					code_link: '',
-					live_link: '',
 				},
 				{
 					title: 'title',
@@ -115,6 +123,11 @@ const WorkSlider = () => {
 									</div>
 								);
 							})}
+							<div className=' items-center justify-center flex h-full'>
+								<a href='https://github.com/abdulmateenzwl'>
+									<BsFillArrowRightSquareFill className='text-4xl text-accent' />
+								</a>
+							</div>
 						</div>
 					</SwiperSlide>
 				);

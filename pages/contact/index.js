@@ -32,7 +32,7 @@ const Contact = () => {
 							setSuccesBox('flex');
 							setTimeout(() => {
 								setSuccesBox('hidden');
-							}, 5000);
+							}, 8000);
 						}
 					},
 					(error) => {
@@ -40,7 +40,7 @@ const Contact = () => {
 							setErrorBox('flex');
 							setTimeout(() => {
 								setErrorBox('hidden');
-							}, 5000);
+							}, 8000);
 						}
 					}
 				);
@@ -49,9 +49,10 @@ const Contact = () => {
 				setErrorBox('flex');
 				setTimeout(() => {
 					setErrorBox('hidden');
-				}, 5000);
+				}, 8000);
 			}
 		}
+		
 	}
 
 	return (
