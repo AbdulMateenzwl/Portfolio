@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3_copy" data-name="Layer 3 copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860.19 728.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #1e50f1;
+      }
+    </style>
+  </defs>
+  <circle cx="492.65" cy="362" r="362"/>
+  <g>
+    <path class="cls-1" d="m505.1,575.01v-191.67c0-20.61.46-43.15,1.38-67,.2-5.19.41-10.38.63-15.58l-29.16,98.59h-69.67l-25.55-87.5c.78,23.02,1.18,46.93,1.18,71.48v191.67h-82.37V148.99h104.37l37.72,136.56,39.02-136.56h104.83v426.03h-82.38Z"/>
+    <rect class="cls-2" x="624.81" y="515.25" width="58.95" height="58.95"/>
+  </g>
+</svg>
