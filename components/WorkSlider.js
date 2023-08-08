@@ -14,7 +14,7 @@ const workSlides = {
 				},
 				{
 					title: 'Text Analyzer',
-					path: '/Text Analyzer.jpg',
+					path: '/textanalyzer.jpg',
 					live_link: 'https://text-analyzer.abdulmateenzwl.com',
 					code_link: 'https://github.com/AbdulMateenzwl/Text-Analyzer',
 				},
@@ -26,7 +26,7 @@ const workSlides = {
 				},
 				{
 					title: 'Connect Me',
-					path: '/Connect me.jpg',
+					path: '/connect-me.jpg',
 					live_link: 'https://connect.abdulmateenzwl.com',
 					code_link: 'https://github.com/AbdulMateenzwl/Connect-Me',
 				},
@@ -42,15 +42,9 @@ const workSlides = {
 				},
 				{
 					title: 'Old Portfolio',
-					path: '/Old Portfolio.jpg',
+					path: '/old-portfolio.jpg',
 					live_link: 'https://old-portfolio.abdulmateenzwl.com',
 					code_link: 'https://github.com/abdulmateenzwl/old-portfolio',
-				},
-				{
-					title: 'title',
-					path: '/thumb3.jpg',
-					code_link: '',
-					live_link: '',
 				},
 			],
 		},
@@ -85,7 +79,10 @@ const WorkSlider = () => {
 						<div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
 							{slide.images.map((image, index) => {
 								return (
-									<div key={index} className='relative rounded-lg overflow-hidden flex items-center justify-center group'>
+									<div
+										key={index}
+										className='relative rounded-lg overflow-hidden flex items-center justify-center group'
+									>
 										<div className='flex items-center justify-center relative overflow-hidden group'>
 											<Image
 												className='rounded-2xl'
@@ -123,15 +120,15 @@ const WorkSlider = () => {
 									</div>
 								);
 							})}
-							<div className=' items-center justify-center flex h-full'>
-								<a href='https://github.com/abdulmateenzwl'>
-									<BsFillArrowRightSquareFill className='text-4xl text-accent' />
-								</a>
-							</div>
 						</div>
 					</SwiperSlide>
 				);
 			})}
+			{/* <div className=' items-center justify-center flex h-full'>
+				<a href='https://github.com/abdulmateenzwl'>
+					<BsFillArrowRightSquareFill className='text-4xl text-accent' />
+				</a>
+			</div> */}
 		</Swiper>
 	);
 };
